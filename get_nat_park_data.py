@@ -21,3 +21,7 @@ for park in park_list:
 
 db.commit()
 db.close()
+
+
+## todo: NPS paginates the data, so this only gets the first 50 results out of several hundred.
+## This should demonstrate the idea of fetching data for the app. 
